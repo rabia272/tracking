@@ -84,22 +84,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
-         database = FirebaseDatabase.getInstance();
-         myRef = database.getReference("latitude");
-         myRef.addValueEventListener(new ValueEventListener() {
-             @Override
-             public void onDataChange(@NonNull DataSnapshot snapshot) {
-               lat=snapshot.getValue(long.class);
-                 System.out.println(lat);
 
-               Toast.makeText(getApplicationContext(),"Value is: "+lat,Toast.LENGTH_LONG);
-             }
 
-             @Override
-             public void onCancelled(@NonNull DatabaseError error) {
-                 Log.w("info", "Failed to read value.", error.toException());
-             }
-         });
          /*
         myRef = database.getReference("longitude");
         myRef.addValueEventListener(new ValueEventListener() {

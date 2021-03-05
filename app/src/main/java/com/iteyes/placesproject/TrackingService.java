@@ -5,6 +5,7 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 
 import com.google.firebase.database.DatabaseReference;
@@ -32,6 +33,7 @@ import static java.lang.Thread.sleep;
 public class TrackingService extends Service {
 
     FirebaseDatabase database;
+    private FusedLocationProviderClient fusedLocationClient;
 
 
     private static final String TAG = TrackingService.class.getSimpleName();
