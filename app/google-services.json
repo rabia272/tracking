@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "729038930965",
+    "firebase_url": "https://tracking-bc3ab-default-rtdb.firebaseio.com",
+    "project_id": "tracking-bc3ab",
+    "storage_bucket": "tracking-bc3ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729038930965:android:83e0ed3c2ee0bc5d793a1c",
+        "android_client_info": {
+          "package_name": "com.iteyes.placesproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729038930965-l5mhl3b7b3r0j5i43k2eadvsvr8ckgsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQG7O3cpkzsR4XdavQXINJAQ8IeZH6tO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729038930965-l5mhl3b7b3r0j5i43k2eadvsvr8ckgsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
